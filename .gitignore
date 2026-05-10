@@ -1,0 +1,28 @@
+# Virtual Environments
+**/venv/
+**/.venv/
+**/env/
+**/.env/
+
+# Environment Secrets (Files)
+.env
+**/.env
+
+# Credentials
+seed/service-account.json
+
+# Dependencies
+**/node_modules/
+
+# Python Cache
+**/__pycache__/
+
+# Data Folders
+**/data/
+
+.claude
+
+**cache/
+
+# Build output
+**/dist/

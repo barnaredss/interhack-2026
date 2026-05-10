@@ -1,0 +1,169 @@
+{
+  "request_id": "REQ-2026-05-10-001",
+  "date": "2026-05-10",
+
+  "depot": {
+    "id": "WH-GR",
+    "coords": { "lat": 41.5750, "lng": 2.2500 },
+    "open": "07:00",
+    "close": "20:00"
+  },
+
+  "fleet": {
+    "num_vans": 3,
+    "van_type": "8_pallets",
+    "vans_ref": "vans.json",
+    "products_ref": "products.json"
+  },
+
+  "drivers": [
+    { "id": "D01", "shift_start": "07:00", "shift_end": "15:00" },
+    { "id": "D02", "shift_start": "07:00", "shift_end": "15:00" },
+    { "id": "D03", "shift_start": "07:30", "shift_end": "15:30" }
+  ],
+
+  "stops": [
+    {
+      "id": "S001",
+      "coords": { "lat": 41.6052739, "lng": 2.2928775 },
+      "time_window": { "open": "08:00", "close": "12:00" },
+      "deliveries": [
+        { "product_id": "1_not_returnable_brand1", "qty": 24 },
+        { "product_id": "2_not_returnable_brand2", "qty": 12 },
+        { "product_id": "1_returnable_brand1",     "qty": 18 }
+      ],
+      "pickups": [
+        { "product_id": "1_returnable_brand1", "qty": 18 },
+        { "product_id": "2_returnable_brand2", "qty": 6 }
+      ]
+    },
+    {
+      "id": "S002",
+      "coords": { "lat": 41.5975345, "lng": 2.2884292 },
+      "time_window": { "open": "08:30", "close": "10:30" },
+      "deliveries": [
+        { "product_id": "2_not_returnable_brand1", "qty": 8 },
+        { "product_id": "2_returnable_brand2",     "qty": 16 }
+      ],
+      "pickups": [
+        { "product_id": "2_returnable_brand2", "qty": 16 }
+      ]
+    },
+    {
+      "id": "S003",
+      "coords": { "lat": 41.5428223, "lng": 2.2161158 },
+      "time_window": { "open": "09:00", "close": "13:00" },
+      "deliveries": [
+        { "product_id": "1_not_returnable_brand3", "qty": 30 },
+        { "product_id": "1_returnable_brand1",     "qty": 20 }
+      ],
+      "pickups": [
+        { "product_id": "1_returnable_brand1", "qty": 25 }
+      ]
+    },
+    {
+      "id": "S004",
+      "coords": { "lat": 41.5393484, "lng": 2.2130934 },
+      "time_window": { "open": "09:00", "close": "11:00" },
+      "deliveries": [
+        { "product_id": "2_not_returnable_brand2", "qty": 14 },
+        { "product_id": "2_returnable_brand3",     "qty": 10 }
+      ],
+      "pickups": [
+        { "product_id": "2_returnable_brand3", "qty": 8 }
+      ]
+    },
+    {
+      "id": "S005",
+      "coords": { "lat": 41.5479180, "lng": 2.2083603 },
+      "time_window": { "open": "10:00", "close": "14:00" },
+      "deliveries": [
+        { "product_id": "1_not_returnable_brand2", "qty": 18 },
+        { "product_id": "2_not_returnable_brand2", "qty": 6 }
+      ],
+      "pickups": []
+    },
+    {
+      "id": "S006",
+      "coords": { "lat": 41.5484516, "lng": 2.2067478 },
+      "time_window": { "open": "08:00", "close": "11:30" },
+      "deliveries": [
+        { "product_id": "1_returnable_brand3", "qty": 36 }
+      ],
+      "pickups": [
+        { "product_id": "1_returnable_brand3", "qty": 30 }
+      ]
+    },
+    {
+      "id": "S007",
+      "coords": { "lat": 41.5450720, "lng": 2.2056984 },
+      "time_window": { "open": "11:00", "close": "13:00" },
+      "deliveries": [
+        { "product_id": "1_not_returnable_brand1", "qty": 10 },
+        { "product_id": "2_returnable_brand1",     "qty": 14 }
+      ],
+      "pickups": [
+        { "product_id": "2_returnable_brand1", "qty": 12 }
+      ]
+    },
+    {
+      "id": "S008",
+      "coords": { "lat": 41.5381651, "lng": 2.2113491 },
+      "time_window": { "open": "08:30", "close": "12:30" },
+      "deliveries": [
+        { "product_id": "2_not_returnable_brand3", "qty": 20 },
+        { "product_id": "1_returnable_brand2",     "qty": 10 }
+      ],
+      "pickups": [
+        { "product_id": "1_returnable_brand2", "qty": 8 }
+      ]
+    },
+    {
+      "id": "S009",
+      "coords": { "lat": 41.5367766, "lng": 2.2135257 },
+      "time_window": { "open": "09:30", "close": "13:30" },
+      "deliveries": [
+        { "product_id": "1_not_returnable_brand2", "qty": 22 },
+        { "product_id": "2_not_returnable_brand1", "qty": 8 },
+        { "product_id": "2_returnable_brand2",     "qty": 12 }
+      ],
+      "pickups": [
+        { "product_id": "2_returnable_brand2", "qty": 10 }
+      ]
+    },
+    {
+      "id": "S010",
+      "coords": { "lat": 41.5443121, "lng": 2.2194830 },
+      "time_window": { "open": "10:30", "close": "14:30" },
+      "deliveries": [
+        { "product_id": "1_returnable_brand1", "qty": 14 },
+        { "product_id": "2_returnable_brand3", "qty": 8 }
+      ],
+      "pickups": [
+        { "product_id": "1_returnable_brand1", "qty": 12 },
+        { "product_id": "2_returnable_brand3", "qty": 6 }
+      ]
+    },
+    {
+      "id": "S011",
+      "coords": { "lat": 41.5377848, "lng": 2.2129105 },
+      "time_window": { "open": "08:00", "close": "10:00" },
+      "deliveries": [
+        { "product_id": "1_not_returnable_brand3", "qty": 16 }
+      ],
+      "pickups": []
+    },
+    {
+      "id": "S012",
+      "coords": { "lat": 41.5373051, "lng": 2.2120439 },
+      "time_window": { "open": "11:30", "close": "14:00" },
+      "deliveries": [
+        { "product_id": "2_not_returnable_brand1", "qty": 10 },
+        { "product_id": "1_returnable_brand2",     "qty": 24 }
+      ],
+      "pickups": [
+        { "product_id": "1_returnable_brand2", "qty": 20 }
+      ]
+    }
+  ]
+}

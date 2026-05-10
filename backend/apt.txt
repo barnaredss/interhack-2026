@@ -1,0 +1,4 @@
+libgeos-dev
+libspatialindex-dev
+libproj-dev
+proj-bin

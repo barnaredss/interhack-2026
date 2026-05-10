@@ -1,0 +1,18 @@
+{
+  "pipelineId": "demo-pipeline-01",
+  "timestamp": "2026-05-09T23:21:06Z",
+  "data": [
+    {
+      "id": 1,
+      "content": "Sample text for processing",
+      "metadata": {
+        "source": "user_input",
+        "priority": "high"
+      }
+    }
+  ],
+  "options": {
+    "runAsync": true,
+    "verboseLogging": false
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_reference": "Mitsubishi Fuso Canter 515 Wide Cab Pantech (8_pallets); 6_pallets is a shorter chassis variant.",
+  "_units": {
+    "length_m": "interior length",
+    "width_m": "interior width",
+    "height_m": "interior height",
+    "cube_size_m": "discretization step for the lattice loader",
+    "pallet_length_m": "EUR pallet long side",
+    "pallet_width_m": "EUR pallet short side",
+    "pallet_height_m": "empty pallet board thickness"
+  },
+  "van_types": [
+    {
+      "type": "8_pallets",
+      "length_m": 4.8,
+      "width_m": 2.4,
+      "height_m": 2.1,
+      "cube_size_m": 0.4,
+      "pallet_length_m": 1.2,
+      "pallet_width_m": 1.2,
+      "pallet_height_m": 0.15,
+      "max_payload_kg": 3000
+    },
+    {
+      "type": "6_pallets",
+      "length_m": 3.6,
+      "width_m": 2.4,
+      "height_m": 2.1,
+      "cube_size_m": 0.4,
+      "pallet_length_m": 1.2,
+      "pallet_width_m": 1.2,
+      "pallet_height_m": 0.15,
+      "max_payload_kg": 2200
+    }
+  ],
+  "comments": "cube size = 0.4 / 5, Input format for generate_initial_state:  orders  = {client_id: {item_type: total_count}},  returns = {client_id: {item_type: returns_count}}"
+}

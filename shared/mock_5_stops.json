@@ -1,0 +1,193 @@
+{
+  "schemaVersion": "1.0.0",
+  "routeId": "route_driver_001_2026-05-09",
+  "driverId": "driver_001",
+  "truckId": "T-01",
+  "stops": [
+    {
+      "stopId": "S1",
+      "sequence": 1,
+      "status": "pending",
+      "serviceMinutes": 18,
+      "location": {
+        "lat": 41.3948,
+        "lng": 2.1609,
+        "address": "Bar Calders, Carrer del Parlament 25"
+      },
+      "cargo": [
+        {
+          "id": "P001",
+          "type": "target_unload",
+          "product": "CACAOLAT 30 U.",
+          "weightKg": 450,
+          "position": { "row": 0, "col": 0 },
+          "size": { "w": 1.2, "h": 1.0, "d": 0.9 }
+        },
+        {
+          "id": "P002",
+          "type": "full",
+          "product": "ESTRELLA DAMM 24x33",
+          "weightKg": 410,
+          "position": { "row": 0, "col": 2 },
+          "size": { "w": 1.2, "h": 1.0, "d": 0.9 }
+        },
+        {
+          "id": "R001",
+          "type": "empty_return",
+          "product": "CAJA DAMM RET VACIO",
+          "weightKg": 58,
+          "position": { "row": 1, "col": 1 },
+          "size": { "w": 1.0, "h": 0.8, "d": 0.9 }
+        }
+      ]
+    },
+    {
+      "stopId": "S2",
+      "sequence": 2,
+      "status": "pending",
+      "serviceMinutes": 20,
+      "location": {
+        "lat": 41.3878,
+        "lng": 2.1699,
+        "address": "Cerveceria Catalana, Carrer de Mallorca 236"
+      },
+      "cargo": [
+        {
+          "id": "P003",
+          "type": "target_unload",
+          "product": "BONKA ESSENTIA",
+          "weightKg": 320,
+          "position": { "row": 0, "col": 3 },
+          "size": { "w": 1.2, "h": 1.0, "d": 0.9 }
+        },
+        {
+          "id": "P004",
+          "type": "full",
+          "product": "AGUA VERI 20L",
+          "weightKg": 500,
+          "position": { "row": 1, "col": 0 },
+          "size": { "w": 1.2, "h": 1.0, "d": 0.9 }
+        },
+        {
+          "id": "R002",
+          "type": "empty_return",
+          "product": "BARRIL VACIO 30L",
+          "weightKg": 72,
+          "position": { "row": 0, "col": 1 },
+          "size": { "w": 1.0, "h": 0.8, "d": 0.9 }
+        }
+      ]
+    },
+    {
+      "stopId": "S3",
+      "sequence": 3,
+      "status": "pending",
+      "serviceMinutes": 17,
+      "location": {
+        "lat": 41.3854,
+        "lng": 2.1977,
+        "address": "Restaurant Mar, Port Olimpic"
+      },
+      "cargo": [
+        {
+          "id": "P005",
+          "type": "target_unload",
+          "product": "MALTA MORENA",
+          "weightKg": 360,
+          "position": { "row": 1, "col": 0 },
+          "size": { "w": 1.2, "h": 1.0, "d": 0.9 }
+        },
+        {
+          "id": "P006",
+          "type": "full",
+          "product": "ESTRELLA DAMM 24x33",
+          "weightKg": 410,
+          "position": { "row": 1, "col": 2 },
+          "size": { "w": 1.2, "h": 1.0, "d": 0.9 }
+        },
+        {
+          "id": "R003",
+          "type": "empty_return",
+          "product": "CAJA DAMM RET VACIO",
+          "weightKg": 84,
+          "position": { "row": 0, "col": 2 },
+          "size": { "w": 1.0, "h": 0.8, "d": 0.9 }
+        }
+      ]
+    },
+    {
+      "stopId": "S4",
+      "sequence": 4,
+      "status": "pending",
+      "serviceMinutes": 22,
+      "location": {
+        "lat": 41.3792,
+        "lng": 2.1774,
+        "address": "Hotel Arts, Carrer de la Marina 19"
+      },
+      "cargo": [
+        {
+          "id": "P007",
+          "type": "target_unload",
+          "product": "AGUA VERI 20L",
+          "weightKg": 500,
+          "position": { "row": 1, "col": 2 },
+          "size": { "w": 1.2, "h": 1.0, "d": 0.9 }
+        },
+        {
+          "id": "P008",
+          "type": "full",
+          "product": "CACAOLAT 30 U.",
+          "weightKg": 440,
+          "position": { "row": 0, "col": 0 },
+          "size": { "w": 1.2, "h": 1.0, "d": 0.9 }
+        },
+        {
+          "id": "R004",
+          "type": "empty_return",
+          "product": "BARRIL VACIO 50L",
+          "weightKg": 96,
+          "position": { "row": 0, "col": 1 },
+          "size": { "w": 1.0, "h": 0.8, "d": 0.9 }
+        }
+      ]
+    },
+    {
+      "stopId": "S5",
+      "sequence": 5,
+      "status": "pending",
+      "serviceMinutes": 25,
+      "location": {
+        "lat": 41.4037,
+        "lng": 2.1832,
+        "address": "Carrer del Rossello 515 (Damm HQ Return)"
+      },
+      "cargo": [
+        {
+          "id": "P009",
+          "type": "target_unload",
+          "product": "ESTRELLA DAMM 24x33",
+          "weightKg": 410,
+          "position": { "row": 0, "col": 0 },
+          "size": { "w": 1.2, "h": 1.0, "d": 0.9 }
+        },
+        {
+          "id": "R005",
+          "type": "empty_return",
+          "product": "CAJA DAMM RET VACIO",
+          "weightKg": 108,
+          "position": { "row": 0, "col": 1 },
+          "size": { "w": 1.0, "h": 0.8, "d": 0.9 }
+        },
+        {
+          "id": "R006",
+          "type": "empty_return",
+          "product": "BARRIL VACIO 30L",
+          "weightKg": 78,
+          "position": { "row": 1, "col": 0 },
+          "size": { "w": 1.0, "h": 0.8, "d": 0.9 }
+        }
+      ]
+    }
+  ]
+}

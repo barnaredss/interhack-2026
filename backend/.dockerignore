@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.cache/
+cache/
+.venv/
+venv/
+
+# Plots and binders generated during local exploration
+*.png
+*.pdf
+challenge_description.txt
+obsolete/
+
+# Local secrets — must never enter the image. Use env vars instead.
+seed/service-account.json
+.env
+.env.*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

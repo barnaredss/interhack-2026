@@ -1,0 +1,58 @@
+Damm Smart Truck
+Damm · Interhack BCN 2026
+1. Context i motivació
+Damm és una companyia amb una activitat logística d'alta complexitat, vinculada a la distribució de productes a múltiples canals i punts de venda. En aquest context, DDI (Distribució Directa Integral) té un paper clau com a xarxa de distribució del grup, amb un catàleg multiproducte de marques de primer nivell i presència a la Península Ibèrica, les Illes Balears i les Illes Canàries. DDI ofereix un servei àgil, flexible i personalitzat als seus clients, especialment en el canal hostaleria. Cada dia, els equips de distribució han de preparar, carregar i repartir comandes a diferents clients, amb rutes que poden incloure aproximadament entre 15 i 25 entregues per camió.
+Actualment, la preparació de la càrrega es fa principalment agrupant els productes per referència. Aquest model facilita la preparació al magatzem i permet aprofitar millor l'espai disponible al camió. Tot i així, durant el repartiment, el xofer pot haver de buscar productes en diferents punts del vehicle per completar l'entrega de cada client, cosa que pot generar moviments addicionals, pèrdues de temps i ineficiències en la descàrrega.
+A més, l'ordre de repartiment no està completament predefinit: sovint és el mateix xofer qui acaba decidint la ruta segons el seu coneixement del territori, els clients i les condicions del dia. Això obre una oportunitat per explorar com la tecnologia, les dades i l'optimització poden ajudar a prendre millors decisions combinant dues dimensions que habitualment es tracten per separat: la ruta de repartiment i la preparació física de la càrrega del camió.
+El repte també ha de tenir en compte la realitat operativa de DDI: diferents tipologies i volums de producte, capacitat limitada del camió, restriccions de manipulació, accés lateral als palets mitjançant lones, horaris o preferències dels clients, i logística inversa. Aproximadament un 60% dels productes entregats són retornables, de manera que els camions també recullen caixes, envasos o barrils buits durant la ruta.
+Aquest repte és rellevant perquè una millor coordinació entre ruta, càrrega i operativa pot generar impacte en eficiència, temps de repartiment, ergonomia, sostenibilitat, qualitat del servei i escalabilitat del model logístic.
+
+2. Objectiu del repte
+L'objectiu del repte és dissenyar una solució que permeti optimitzar de manera conjunta la ruta de repartiment i la configuració de la càrrega del camió, tenint en compte l'ordre d'entrega, el volum i tipologia dels productes, la capacitat del vehicle, la logística inversa i les restriccions operatives del procés actual.
+La solució ideal hauria de ser capaç de proposar una ruta eficient i, alhora, recomanar com preparar físicament la càrrega perquè la descàrrega sigui més àgil i coherent amb l'ordre de repartiment, sense penalitzar excessivament l'aprofitament de l'espai ni la preparació al magatzem.
+Es valoraran especialment les solucions que combinin un enfocament tècnic sòlid amb una aplicació realista al context logístic de Damm. No es tracta només de trobar la ruta més curta, sinó de trobar el millor equilibri entre eficiència de ruta, eficiència de càrrega, facilitat de descàrrega i viabilitat operativa.
+
+3. Repte tècnic / requisits funcionals
+La solució proposada hauria de cobrir, com a mínim, els següents elements:
+* Optimització de ruta: Proposar un ordre de visita dels clients tenint en compte variables com distància, temps estimat de trajecte, número de clients, possibles franges horàries, restriccions d'entrega o criteris de prioritat. 
+* Optimització de càrrega: Recomanar una configuració física de la càrrega del camió tenint en compte els productes de cada client, el volum, la tipologia de producte, la capacitat del vehicle i l'ordre previst de descàrrega. 
+* Equilibri entre càrrega per referència i càrrega per client: Explorar si convé mantenir una càrrega agrupada per referències, passar a una càrrega agrupada per client o proposar un model híbrid que maximitzi l'eficiència global. 
+* Visualització de la càrrega: Incloure una representació visual, encara que sigui simplificada, de com quedaria carregat el camió: zones, palets, grups de producte, clients associats o ordre recomanat de descàrrega. 
+* Logística inversa: Incorporar la recollida de retornables com una variable del model. La solució hauria de considerar que el camió no només entrega productes, sinó que també pot anar recuperant caixes, envasos o barrils buits durant la ruta. 
+* Restriccions operatives reals: Tenir en compte que els camions disposen de lones laterals que permeten accedir als palets des del lateral, i que la càrrega ha de ser viable des del punt de vista de magatzem, manipulació, seguretat i temps de preparació. 
+* Layout del magatzem: Considerar, com a variable opcional o extensió del repte, si una disposició diferent del magatzem podria facilitar la preparació de càrregues més eficients segons ruta, client o tipologia de producte. 
+* Recomanacions automàtiques: Generar recomanacions accionables per als equips de logística, com ara: millor ordre de càrrega, clients que convé agrupar, productes crítics, punts de fricció esperats, o alertes sobre configuracions poc eficients. 
+* Explicabilitat de la solució: La proposta hauria d'explicar per què recomana una ruta o configuració determinada, quins criteris ha prioritzat i quins compromisos assumeix entre espai, temps, facilitat de descàrrega i eficiència global. 
+La solució pot adoptar diferents formes: algoritme d'optimització, prototip funcional, simulador, eina visual, dashboard interactiu, model de recomanació o combinació d'aquests elements.
+
+4. Recursos i dades disponibles
+Damm facilitarà als equips informació de context i, en la mesura del possible, dades de mostra o dades sintètiques per treballar el repte. Els recursos previstos són:
+* Dades de mostra de comandes i repartiment de DDI: Exemples de comandes amb clients, referències de producte, quantitats, formats, volums o unitats logístiques aproximades. 
+* Exemples de rutes o assignació de clients: Mostres de com poden quedar assignats diferents clients a un xofer o camió en una jornada de repartiment. 
+* Informació sobre el funcionament actual de DDI: Explicació del procés actual de preparació de càrrega, criteris utilitzats, limitacions i punts de fricció identificats. 
+* Imatges o esquemes del magatzem: Material visual que ajudi a entendre com s'organitzen actualment les referències i com es prepara la càrrega. 
+* Imatges o esquemes de càrrega de camions: Exemples de com es distribueixen actualment els productes dins dels camions. 
+* Restriccions operatives simplificades: Capacitat estimada del camió, accés lateral, tipus de productes, manipulació, limitacions de volum o pes, i consideracions bàsiques de seguretat. 
+* Informació sobre logística inversa: Estimació del percentatge de productes retornables i exemples de retorns típics durant una ruta. 
+* Mentors o experts de Damm i DDI: Durant l'esdeveniment, Damm i DDI intentaran comptar amb persones de l'equip de Distribució i de Data & IA per resoldre dubtes operatius i tècnics dels participants.
+En cas que no es puguin compartir dades reals per motius de confidencialitat, es facilitaran dades anonimitzades, simplificades o sintètiques que reprodueixin la lògica del problema.
+
+5. Entregables esperats
+Al final del repte, cada equip haurà de presentar una proposta que permeti entendre tant la solució tècnica com la seva aplicació pràctica al context de Damm.
+Els entregables esperats són:
+* Prototip funcional o demo conceptual: Una eina, model, simulador, script, dashboard o interfície que mostri com es podria optimitzar ruta i càrrega de manera conjunta. 
+* Algoritme o lògica de decisió: Explicació clara de l'enfocament utilitzat: criteris d'optimització, variables considerades, restriccions incorporades i prioritats del model. 
+* Visualització de la solució: Representació visual de la ruta proposada i de la configuració recomanada de la càrrega del camió. 
+* Aplicació a un cas d'ús concret: Exemple pràctic amb una ruta simulada o de mostra, indicant quins clients es visiten, en quin ordre, com es carrega el camió i quins beneficis s'esperen. 
+* Resultats i impacte esperat: Estimació qualitativa o quantitativa del possible impacte: reducció de temps de descarga, millor aprofitament del camió, menys moviments, menys quilòmetres, millor experiència del xofer o més eficiència operativa. 
+* Pitch final: Presentació breu amb el problema abordat, la solució proposada, els supòsits utilitzats, les limitacions, els resultats i els següents passos per portar-ho a un pilot real. 
+No és imprescindible que la solució estigui completament acabada, però sí que ha de ser comprensible, defensable i aplicable a un escenari logístic realista.
+
+6. Criteris d'avaluació
+Les propostes s'avaluaran segons els criteris següents:
+* Aplicabilitat real al context de Damm (30%): La solució té en compte les restriccions operatives reals? És viable en un entorn de distribució com el de Damm? Entén bé el rol del magatzem, el xofer, la càrrega i la descàrrega? 
+* Qualitat tècnica de la solució (25%): L'enfocament d'optimització és sòlid? Les variables estan ben definides? La solució combina correctament ruta, càrrega i restriccions? El prototip o model és coherent? 
+* Impacte potencial (20%): La proposta pot generar millores rellevants en eficiència, temps, sostenibilitat, qualitat del servei, ergonomia o escalabilitat? 
+* Creativitat i originalitat (15%): L'equip proposa un enfocament diferencial? Explora solucions híbrides, visualitzacions útils, recomanacions intel·ligents o noves formes de prendre decisions? 
+* Claredat de comunicació i pitch (10%): La solució s'explica de manera clara? Els supòsits, resultats i limitacions són comprensibles? El pitch ajuda a imaginar com es podria portar la proposta a la pràctica? 
+Es valoraran especialment les propostes que no només optimitzin sobre el paper, sinó que demostrin sensibilitat pel funcionament real de l'operativa logística: preparació al magatzem, càrrega del camió, accés als productes, decisió del xofer, retornables i experiència de descàrrega al client.

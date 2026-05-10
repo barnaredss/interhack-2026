@@ -1,0 +1,123 @@
+{
+  "products": [
+    {
+      "id": "1_not_returnable_brand1",
+      "length_cells": 1,
+      "width_cells": 1,
+      "height_cells": 1,
+      "weight_kg": 10.0,
+      "is_returnable": false,
+      "brand": "brand1"
+    },
+    {
+      "id": "2_not_returnable_brand1",
+      "length_cells": 1,
+      "width_cells": 1,
+      "height_cells": 2,
+      "weight_kg": 13.0,
+      "is_returnable": false,
+      "brand": "brand1"
+    },
+    {
+      "id": "1_returnable_brand1",
+      "length_cells": 1,
+      "width_cells": 1,
+      "height_cells": 1,
+      "weight_kg": 15.0,
+      "is_returnable": true,
+      "brand": "brand1"
+    },
+    {
+      "id": "2_returnable_brand1",
+      "length_cells": 1,
+      "width_cells": 1,
+      "height_cells": 2,
+      "weight_kg": 18.0,
+      "is_returnable": true,
+      "brand": "brand1"
+    },
+
+
+
+
+    {
+      "id": "1_not_returnable_brand2",
+      "length_cells": 1,
+      "width_cells": 1,
+      "height_cells": 1,
+      "weight_kg": 10.0,
+      "is_returnable": false,
+      "brand": "brand2"
+
+    },
+    {
+      "id": "2_not_returnable_brand2",
+      "length_cells": 1,
+      "width_cells": 1,
+      "height_cells": 2,
+      "weight_kg": 13.0,
+      "is_returnable": false,
+      "brand": "brand2"
+    },
+    {
+      "id": "1_returnable_brand2",
+      "length_cells": 1,
+      "width_cells": 1,
+      "height_cells": 1,
+      "weight_kg": 15.0,
+      "is_returnable": true,
+      "brand": "brand2"
+    },
+    {
+      "id": "2_returnable_brand2",
+      "length_cells": 1,
+      "width_cells": 1,
+      "height_cells": 2,
+      "weight_kg": 18.0,
+      "is_returnable": true,
+      "brand": "brand2"
+    },
+
+
+
+
+
+
+    {
+      "id": "1_not_returnable_brand3",
+      "length_cells": 1,
+      "width_cells": 1,
+      "height_cells": 1,
+      "weight_kg": 10.0,
+      "is_returnable": false,
+      "brand": "brand3"
+    },
+    {
+      "id": "2_not_returnable_brand3",
+      "length_cells": 1,
+      "width_cells": 1,
+      "height_cells": 2,
+      "weight_kg": 13.0,
+      "is_returnable": false,
+      "brand": "brand3"
+    },
+    {
+      "id": "1_returnable_brand3",
+      "length_cells": 1,
+      "width_cells": 1,
+      "height_cells": 1,
+      "weight_kg": 15.0,
+      "is_returnable": true,
+      "brand": "brand3"
+    },
+    {
+      "id": "2_returnable_brand3",
+      "length_cells": 1,
+      "width_cells": 1,
+      "height_cells": 2,
+      "weight_kg": 18.0,
+      "is_returnable": true,
+      "brand": "brand3"
+    }
+  ]
+}

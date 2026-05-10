@@ -1,0 +1,167 @@
+{
+  "drivers": [
+    {
+      "id": "driver_001",
+      "password": "damm2026",
+      "truck_id": "T-01",
+      "truck_layout": { "rows": 2, "cols": 3 },
+      "points": [
+        { "lat": 41.4037, "lng": 2.1832, "address": "Carrer del Rosselló 515 (Damm HQ)" },
+        { "lat": 41.3948, "lng": 2.1609, "address": "Bar Calders, Carrer del Parlament 25" },
+        { "lat": 41.3878, "lng": 2.1699, "address": "Cervecería Catalana, Carrer de Mallorca 236" },
+        { "lat": 41.3854, "lng": 2.1977, "address": "Restaurant Mar, Port Olímpic" },
+        { "lat": 41.3792, "lng": 2.1774, "address": "Hotel Arts, Carrer de la Marina 19" }
+      ],
+      "pallets": [
+        { "row": 0, "col": 0, "products": [
+          { "product_id": "2_not_returnable_brand1", "quantity": 2 },
+          { "product_id": "1_not_returnable_brand2", "quantity": 1 }
+        ]},
+        { "row": 0, "col": 1, "products": [
+          { "product_id": "1_not_returnable_brand2", "quantity": 3 }
+        ]},
+        { "row": 0, "col": 2, "products": [
+          { "product_id": "2_returnable_brand1",     "quantity": 2 },
+          { "product_id": "1_returnable_brand2",     "quantity": 2 }
+        ]},
+        { "row": 1, "col": 0, "products": [
+          { "product_id": "1_returnable_brand3",     "quantity": 4 }
+        ]},
+        { "row": 1, "col": 1, "products": [
+          { "product_id": "2_not_returnable_brand3", "quantity": 2 },
+          { "product_id": "1_not_returnable_brand3", "quantity": 1 }
+        ]},
+        { "row": 1, "col": 2, "products": [
+          { "product_id": "1_not_returnable_brand1", "quantity": 3 }
+        ]}
+      ],
+      "deliveries": [
+        { "pallet_positions": [] },
+        { "pallet_positions": [{ "row": 0, "col": 1 }, { "row": 1, "col": 2 }] },
+        { "pallet_positions": [{ "row": 0, "col": 0 }, { "row": 1, "col": 1 }] },
+        { "pallet_positions": [{ "row": 1, "col": 0 }] },
+        { "pallet_positions": [{ "row": 0, "col": 2 }] }
+      ],
+      "windows": [
+        { "start": "07:00", "end": "08:30" },
+        { "start": "09:00", "end": "11:00" },
+        { "start": "11:30", "end": "13:00" },
+        { "start": "14:00", "end": "15:30" },
+        { "start": "16:00", "end": "18:00" }
+      ],
+      "service_times": [10, 25, 20, 35, 30]
+    },
+    {
+      "id": "driver_002",
+      "password": "damm2026",
+      "truck_id": "T-02",
+      "truck_layout": { "rows": 2, "cols": 4 },
+      "points": [
+        { "lat": 41.4037, "lng": 2.1832, "address": "Carrer del Rosselló 515 (Damm HQ)" },
+        { "lat": 41.4156, "lng": 2.1569, "address": "Bar El Dorado, Carrer de Verdi 45" },
+        { "lat": 41.4165, "lng": 2.2146, "address": "Rambla del Poblenou 60" },
+        { "lat": 41.4357, "lng": 2.1876, "address": "Bar La Bodegueta, Sant Andreu" },
+        { "lat": 41.4380, "lng": 2.1547, "address": "Supermercat Bonpreu, Carrer d'Horta 78" },
+        { "lat": 41.4037, "lng": 2.1832, "address": "Carrer del Rosselló 515 (Damm HQ)" }
+      ],
+      "pallets": [
+        { "row": 0, "col": 0, "products": [
+          { "product_id": "1_not_returnable_brand1", "quantity": 3 },
+          { "product_id": "2_not_returnable_brand1", "quantity": 1 }
+        ]},
+        { "row": 0, "col": 1, "products": [
+          { "product_id": "2_not_returnable_brand2", "quantity": 2 }
+        ]},
+        { "row": 0, "col": 2, "products": [
+          { "product_id": "1_returnable_brand1",     "quantity": 4 },
+          { "product_id": "1_returnable_brand2",     "quantity": 2 }
+        ]},
+        { "row": 0, "col": 3, "products": [
+          { "product_id": "2_not_returnable_brand3", "quantity": 2 }
+        ]},
+        { "row": 1, "col": 0, "products": [
+          { "product_id": "1_not_returnable_brand2", "quantity": 3 }
+        ]},
+        { "row": 1, "col": 1, "products": [
+          { "product_id": "2_returnable_brand2",     "quantity": 2 },
+          { "product_id": "1_returnable_brand3",     "quantity": 1 }
+        ]},
+        { "row": 1, "col": 2, "products": [
+          { "product_id": "1_returnable_brand3",     "quantity": 3 }
+        ]},
+        { "row": 1, "col": 3, "products": [
+          { "product_id": "2_not_returnable_brand1", "quantity": 2 },
+          { "product_id": "1_not_returnable_brand3", "quantity": 2 }
+        ]}
+      ],
+      "deliveries": [
+        { "pallet_positions": [] },
+        { "pallet_positions": [{ "row": 0, "col": 1 }, { "row": 1, "col": 0 }] },
+        { "pallet_positions": [{ "row": 0, "col": 3 }, { "row": 1, "col": 3 }] },
+        { "pallet_positions": [{ "row": 0, "col": 2 }, { "row": 1, "col": 1 }] },
+        { "pallet_positions": [{ "row": 0, "col": 0 }, { "row": 1, "col": 2 }] },
+        { "pallet_positions": [] }
+      ],
+      "windows": [
+        { "start": "07:00", "end": "08:30" },
+        { "start": "09:00", "end": "10:30" },
+        { "start": "11:00", "end": "12:30" },
+        { "start": "13:30", "end": "15:00" },
+        { "start": "15:30", "end": "17:00" },
+        { "start": "17:30", "end": "19:00" }
+      ],
+      "service_times": [10, 20, 30, 25, 40, 10]
+    },
+    {
+      "id": "driver_003",
+      "password": "damm2026",
+      "truck_id": "T-03",
+      "truck_layout": { "rows": 2, "cols": 3 },
+      "points": [
+        { "lat": 41.4037, "lng": 2.1832, "address": "Carrer del Rosselló 515 (Damm HQ)" },
+        { "lat": 41.3795, "lng": 2.1410, "address": "Bar Sants, Carrer de Sants 200" },
+        { "lat": 41.3809, "lng": 2.1228, "address": "Cervecería Camp Nou, Avinguda de Joan XXIII" },
+        { "lat": 41.4001, "lng": 2.1253, "address": "Bar Sarrià, Carrer Major de Sarrià 80" },
+        { "lat": 41.3714, "lng": 2.1577, "address": "Bar Paralelo, Avinguda del Paral·lel 120" }
+      ],
+      "pallets": [
+        { "row": 0, "col": 0, "products": [
+          { "product_id": "2_not_returnable_brand2", "quantity": 2 },
+          { "product_id": "1_not_returnable_brand2", "quantity": 2 }
+        ]},
+        { "row": 0, "col": 1, "products": [
+          { "product_id": "1_returnable_brand1",     "quantity": 3 }
+        ]},
+        { "row": 0, "col": 2, "products": [
+          { "product_id": "2_not_returnable_brand3", "quantity": 2 },
+          { "product_id": "1_not_returnable_brand1", "quantity": 1 }
+        ]},
+        { "row": 1, "col": 0, "products": [
+          { "product_id": "1_not_returnable_brand3", "quantity": 4 }
+        ]},
+        { "row": 1, "col": 1, "products": [
+          { "product_id": "2_returnable_brand3",     "quantity": 2 },
+          { "product_id": "1_returnable_brand2",     "quantity": 1 }
+        ]},
+        { "row": 1, "col": 2, "products": [
+          { "product_id": "1_not_returnable_brand2", "quantity": 3 }
+        ]}
+      ],
+      "deliveries": [
+        { "pallet_positions": [] },
+        { "pallet_positions": [{ "row": 0, "col": 0 }, { "row": 1, "col": 2 }] },
+        { "pallet_positions": [{ "row": 0, "col": 1 }, { "row": 1, "col": 0 }] },
+        { "pallet_positions": [{ "row": 1, "col": 1 }] },
+        { "pallet_positions": [{ "row": 0, "col": 2 }] }
+      ],
+      "windows": [
+        { "start": "07:00", "end": "08:30" },
+        { "start": "09:30", "end": "11:00" },
+        { "start": "11:30", "end": "13:30" },
+        { "start": "14:30", "end": "16:00" },
+        { "start": "16:30", "end": "18:30" }
+      ],
+      "service_times": [10, 20, 25, 15, 20]
+    }
+  ]
+}
